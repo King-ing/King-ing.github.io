@@ -6,18 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://King-ing.github.io">
-  <title>空间动态 | King Blog</title>
+  <title>python中用remove()为什么删除不干净列表中的多个相同元素 | King Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="&amp;nbsp;&amp;nbsp;说说&amp;nbsp;&amp;nbsp;     &amp;nbsp;&amp;nbsp;相册&amp;nbsp;&amp;nbsp;     &amp;nbsp;&amp;nbsp;视频&amp;nbsp;&amp;nbsp;        学习强国">
-<meta property="og:type" content="website">
-<meta property="og:title" content="空间动态">
-<meta property="og:url" content="https://king-ing.github.io/dynamic/videos.html">
+  <meta name="description" content="🤔如题：要删除num_list列表中所有的 3 。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python中用remove()为什么删除不干净列表中的多个相同元素">
+<meta property="og:url" content="https://king-ing.github.io/2020/07/29/python%E4%B8%AD%E7%94%A8remove-%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%A0%E9%99%A4%E4%B8%8D%E5%B9%B2%E5%87%80%E5%88%97%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%A4%9A%E4%B8%AA%E7%9B%B8%E5%90%8C%E5%85%83%E7%B4%A0/index.html">
 <meta property="og:site_name" content="King Blog">
-<meta property="og:description" content="&amp;nbsp;&amp;nbsp;说说&amp;nbsp;&amp;nbsp;     &amp;nbsp;&amp;nbsp;相册&amp;nbsp;&amp;nbsp;     &amp;nbsp;&amp;nbsp;视频&amp;nbsp;&amp;nbsp;        学习强国">
+<meta property="og:description" content="🤔如题：要删除num_list列表中所有的 3 。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-08-16T07:13:27.735Z">
-<meta property="article:modified_time" content="2020-08-16T07:13:27.735Z">
+<meta property="article:published_time" content="2020-07-29T06:46:22.000Z">
+<meta property="article:modified_time" content="2020-08-14T12:38:49.146Z">
 <meta property="article:author" content="King">
+<meta property="article:tag" content="Python">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="King Blog" type="application/atom+xml">
@@ -178,18 +179,28 @@
           </div>
           <div id="js-content" class="content-ll">
             
-<article id="post-photos" class="article article-type-post " itemscope itemprop="blogPost">
+<article id="post-python中用remove-为什么删除不干净列表中的多个相同元素" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      空间动态
+      python中用remove()为什么删除不干净列表中的多个相同元素
     </h1>
   
 
         <!-- 发布时间 -->
+        
+        
+	<!-- 不蒜子统计 -->
+	<span class="archive-article-date">
+	  <i class="fa fa-eye" aria-hidden="true"></i> 阅读量：<span id="busuanzi_value_page_pv"></span>次
+	</span>
+
+<a href="/2020/07/29/python%E4%B8%AD%E7%94%A8remove-%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%A0%E9%99%A4%E4%B8%8D%E5%B9%B2%E5%87%80%E5%88%97%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%A4%9A%E4%B8%AA%E7%9B%B8%E5%90%8C%E5%85%83%E7%B4%A0/" class="archive-article-date">
+  	<time datetime="2020-07-29T06:46:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-29</time>
+</a>
         
         <!-- 开始添加字数统计-->
         
@@ -198,7 +209,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-keyboard-o" aria-hidden="true"></i>
         <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">22字</span>
+        <span class="post-count">1k字</span>
       </span>
     </span>
   
@@ -207,7 +218,7 @@
       <span class="post-meta-item-icon">
         <i class="fa fa-clock-o" aria-hidden="true"></i>
         <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">1分</span>
+        <span class="post-count">4分</span>
       </span>
     </span>
   </div>
@@ -218,26 +229,51 @@
     
     <!-- 添加导航目录内容 -->
     
+      <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+            <span class="btn-bg"></span>
+            <span class="btn-text">文章导航</span>
+            </p>
+      <div id="toc-article" class="toc-article">
+          <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+          <strong class="toc-title">文章目录</strong>
+            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%A7%8D%E6%83%85%E5%86%B5%EF%BC%8C%E7%9B%B8%E5%90%8C%E7%9A%84%E5%85%83%E7%B4%A0%E4%B8%8D%E6%98%AF%E8%BF%9E%E7%BB%AD%E7%9A%84%EF%BC%9A"><span class="toc-number">1.</span> <span class="toc-text">第一种情况，相同的元素不是连续的：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%E6%83%85%E5%86%B5%EF%BC%8C%E7%9B%B8%E5%90%8C%E7%9A%84%E5%85%83%E7%B4%A0%E6%9C%89%E8%BF%9E%E7%BB%AD%E7%9A%84"><span class="toc-number">2.</span> <span class="toc-text">第二种情况，相同的元素有连续的</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%82%A3%E4%B8%BA%E4%BB%80%E4%B9%88%E7%94%A8remove-%E4%BC%9A%E5%88%A0%E4%B8%8D%E5%B9%B2%E5%87%80%E5%91%A2%EF%BC%9F"><span class="toc-number">3.</span> <span class="toc-text">那为什么用remove()会删不干净呢？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%EF%BC%9A"><span class="toc-number">4.</span> <span class="toc-text">解决办法：</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%A7%8D%EF%BC%9A"><span class="toc-number">4.1.</span> <span class="toc-text">第一种：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%A7%8D%EF%BC%9A"><span class="toc-number">4.2.</span> <span class="toc-text">第二种：</span></a></li></ol></li></ol>
+          </div>
+      <script type="text/javascript">
+        function showToc(){
+            var toc_article = document.getElementById("toc-article");
+            var show_toc_btn = document.getElementById("show-toc-btn");
+            toc_article.setAttribute("style","display:block");
+            show_toc_btn.setAttribute("style","display:none");
+            };
+        function showBtn(){
+            var toc_article = document.getElementById("toc-article");
+            var show_toc_btn = document.getElementById("show-toc-btn");
+            toc_article.setAttribute("style","display:none");
+            show_toc_btn.setAttribute("style","display:block");
+            };
+      </script>
+    
     <!-- 导航目录内容结束 -->
     <div class="article-entry" itemprop="articleBody">
       
-        <link rel="stylesheet" href="./ins.css">
-<div class="photos-btn-wrap">
-    <a class="photos-btn" href="/dynamic">&nbsp;&nbsp;说说&nbsp;&nbsp;</a>
-    <a class="photos-btn" href="/dynamic/photos.html">&nbsp;&nbsp;相册&nbsp;&nbsp;</a>
-    <a class="photos-btn active" href="/dynamic/videos.html">&nbsp;&nbsp;视频&nbsp;&nbsp;</a>
-</div>
-<!-- <span>博主暂未上传视频哦！</span> -->
-<center>
-    <h1>学习强国</h1>
-</center>
-<hr/>
-<center>
-    <div class="video-container">
-        <iframe height="80%" width="80%" src="https://www.xuexi.cn/" frameborder=0 allowfullscreen></iframe>
-    </div>
-</center>
-<hr/>
+        <blockquote>
+<p>🤔如题：<br>要删除num_list列表中所有的 3 。</p>
+</blockquote>
+<a id="more"></a>
+
+<h3 id="第一种情况，相同的元素不是连续的："><a href="#第一种情况，相同的元素不是连续的：" class="headerlink" title="第一种情况，相同的元素不是连续的："></a>第一种情况，相同的元素不是连续的：</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">num_list = [<span class="number">1</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">3</span>, <span class="number">2</span>]</span><br></pre></td></tr></table></figure>
+<p>我可能会这么敲：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> num_list:</span><br><span class="line">    <span class="keyword">if</span> i == <span class="number">3</span>:</span><br><span class="line">        num_list.remove(i)</span><br><span class="line">print(num_list)</span><br></pre></td></tr></table></figure>
+<p>运行结果为： [1, 5, 2]<br>确实删掉了列表里所以的 3 。</p>
+<h3 id="第二种情况，相同的元素有连续的"><a href="#第二种情况，相同的元素有连续的" class="headerlink" title="第二种情况，相同的元素有连续的"></a>第二种情况，相同的元素有连续的</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">num_list = [<span class="number">1</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">3</span>, <span class="number">2</span>]</span><br></pre></td></tr></table></figure>
+<p>我们在用刚才的代码测试,运行结果却是： [1, 5, 3, 2]</p>
+<h3 id="那为什么用remove-会删不干净呢？"><a href="#那为什么用remove-会删不干净呢？" class="headerlink" title="那为什么用remove()会删不干净呢？"></a><strong>那为什么用remove()会删不干净呢？</strong></h3><p>在该题中因为for循环语句是按照该列表元素的下标进行取数，并不会因为添加了元素或者删除了元素而所影响。<br>而在python中，对列表进行增删元素之后，会对其他元素进行相应移动。<br>其次就是要理解remove()函数，它是对第一个出现的指定数据进行删除操作，删除之后，对剩余元素进行自动移位。<br><strong>上题分析（执行原理）：</strong><br><strong>当执行第一次循环时</strong>，下标为 0 ；i == 1,if 判断条件不满足，进入下一次循环，此时列表为：[1, 3, 3, 3, 5, 3, 2]<br><strong>当执行第二次循环时</strong>，下标为 1 ；i == 3，if 判断条件满足，删除列表中出现的第一个 3 ，此时列表为：[1, 3, 3, 5, 3, 2]，其他元素下标同时往前移动<br><strong>当执行第三次循环时</strong>，下标为 2 ；i == 3，if 判断条件满足，删除列表中出现的第一个 3 ，此时列表为：[1, 3, 5, 3, 2]<br><strong>这要提醒的是：</strong><br>执行第三次循环时，下标为 2 对应的 3 ，是此时列表[1, 3, <code>3</code>, 5, 3, 2]中的第3个数，而将删除的 3 是列表[1, <code>3</code>, 3, 5, 3, 2]中的的第2个 3 。所以这就出现了<strong>错删</strong><br><strong>当执行第四次循环时</strong>，下标为 3 ；i == 3，if 判断条件满足，删除列表中出现的第一个 3 ，此时列表为：[1, 5, 3, 2]，同理：是错删<br><strong>当执行第五次循环时</strong>，下标为 4 ；i == 2，if 判断条件不满足，进入下一次循环，此时列表为：[1, 5, 3, 2]<br><strong>当执行第六次</strong>，执行前判断列表元素走完了，打印列表num_list。此时列表 为[1, 5, 3, 2]<br>因此会删不干净（漏删）！</p>
+<h3 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h3><h4 id="第一种："><a href="#第一种：" class="headerlink" title="第一种："></a><strong>第一种：</strong></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#将 遍历元素 和 删除元素 分开进行</span></span><br><span class="line">del_list = []  <span class="comment"># 用来记录 要删除的元素</span></span><br><span class="line"><span class="keyword">for</span> num <span class="keyword">in</span> num_list:</span><br><span class="line">    <span class="keyword">if</span> num == <span class="number">3</span>:</span><br><span class="line">        <span class="comment"># 本次记录筛选出的元素，不进行删除。</span></span><br><span class="line">        <span class="comment"># 并将筛选出的元素添加到列表del_list 中。</span></span><br><span class="line">        del_list.append(num)</span><br><span class="line"><span class="keyword">for</span> del_num <span class="keyword">in</span> del_list:</span><br><span class="line">    <span class="comment"># 从列表del_list中的遍历每一个元素del_num,</span></span><br><span class="line">    <span class="comment"># 到列表num_list中进行删除相应的元素</span></span><br><span class="line">    num_list.remove(del_num)</span><br><span class="line">print(num_list)</span><br></pre></td></tr></table></figure>
+<h4 id="第二种："><a href="#第二种：" class="headerlink" title="第二种："></a><strong>第二种：</strong></h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 先获取列表num_list 的长度</span></span><br><span class="line">a = len(num_list)</span><br><span class="line"><span class="comment"># print(a)</span></span><br><span class="line"><span class="comment"># 第一个参数&quot;a-1&quot;:起始;第二个参数&quot;-1&quot;:终止;</span></span><br><span class="line"><span class="comment"># 也就是说,下角标从0开始计数,而长度计数是从1开始,所以,第一个参数和第二个参数各自减一。</span></span><br><span class="line"><span class="comment"># 第三个参数&quot;-1&quot;:为 步长,也就是说每隔&quot;-1&quot;个输出一个数，由于第一、二参数导致倒序输出,所以步长,需改为负数。</span></span><br><span class="line"><span class="comment"># 倒序遍历列表中的元素。</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(a<span class="number">-1</span>, <span class="number">-1</span>, <span class="number">-1</span>):</span><br><span class="line">    <span class="comment"># print(i)</span></span><br><span class="line">    <span class="comment"># num_list[i]为列表里的每一个元素,当该元素等于 3 时</span></span><br><span class="line">    <span class="comment"># 就删除num_list列表中第一个出现的指定数据 3 ,</span></span><br><span class="line">    <span class="comment"># 遍历一遍之后，因(倒序输出，下一个序号)==(删除一个元素后,下角标长度-1);正好相等,互不影响,</span></span><br><span class="line">    <span class="comment"># 实现了从后往前遍历，从前往后删除。</span></span><br><span class="line">    <span class="keyword">if</span> num_list[i] == <span class="number">3</span>:</span><br><span class="line">        num_list.remove(<span class="number">3</span>)</span><br><span class="line">print(num_list)</span><br></pre></td></tr></table></figure>
+<p>两种方法的运行结果都为：[1, 5, 2] ，成功删除列表中所有的 3 。</p>
+<pre><code> 以上是结合老师的讲解和自己的理解归纳写的！</code></pre>
+<p>ps:第一次写博客，有理解错误的，或者写得不好的地方，希望大大能大方指出来，我将会虚心接受，并改正，谢谢。</p>
+
       
 
       <!- 百度自动推送方式提交 -->
@@ -268,7 +304,33 @@
 
 <!-- #版权基础设定：0-关闭声明； 1-文章对应的md文件里有declare: true属性，才有版权声明； 2-所有文章均有版权声明 -->
 
-  <div class="declare" hidden="hidden"></div>
+  <div class="declare">
+    <strong class="author">本文作者：</strong>
+    
+      King
+    
+    <br>
+    <strong class="create-time">发布时间：</strong>
+    2020-07-29 14:07:00
+    <br>
+    <strong class="update-time">最后更新：</strong>
+    2020-08-14 20:08:14
+    <br>
+    <strong class="article-titles">本文标题：</strong>
+    <a href="https://King-ing.github.io/2020/07/29/python中用remove-为什么删除不干净列表中的多个相同元素/" title="python中用remove()为什么删除不干净列表中的多个相同元素" target="_blank">python中用remove()为什么删除不干净列表中的多个相同元素</a>
+    <br>
+    <strong class="article-url">本文链接：</strong>
+    <a href="https://King-ing.github.io/2020/07/29/python中用remove-为什么删除不干净列表中的多个相同元素/" title="python中用remove()为什么删除不干净列表中的多个相同元素" target="_blank">https://King-ing.github.io/2020/07/29/python中用remove-为什么删除不干净列表中的多个相同元素/</a>
+    <br>
+    <strong class="copyright">版权声明：</strong>
+    本作品采用
+    <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议">CC BY-NC-SA 4.0</a>
+    许可协议进行许可。转载请注明出处！
+    
+      <br>
+      <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"/></a>
+    
+  </div>
 
 <!-- 添加版权声明》 -->
       
@@ -310,6 +372,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Python</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -360,7 +433,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://king-ing.github.io/dynamic/videos.html" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://king-ing.github.io/2020/07/29/python%E4%B8%AD%E7%94%A8remove-%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%A0%E9%99%A4%E4%B8%8D%E5%B9%B2%E5%87%80%E5%88%97%E8%A1%A8%E4%B8%AD%E7%9A%84%E5%A4%9A%E4%B8%AA%E7%9B%B8%E5%90%8C%E5%85%83%E7%B4%A0/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -372,6 +445,16 @@
 </article>
 
   
+<nav id="article-nav">
+  
+  
+    <a href="/2020/07/29/%E5%BB%BA%E7%AB%99%E6%97%A5%E5%BF%97/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">建站日志</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -403,6 +486,53 @@
 
 
 <!-- valine评论 -->
+
+  
+      <section id="comments" class="comments">
+        <style>
+          .comments{margin:30px;padding:10px;background:#fff}
+          @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
+        </style>
+        <div id="vcomment" class="comment"></div> 
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<!-- <script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<!-- 魔改版 Valine.min.js -->
+<script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script>
+<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.5.0/css/all.min.css" rel="stylesheet">
+
+<script>
+    var notify = 'true' == true ? true : false;
+    var verify = 'true' == true ? true : false;
+    new Valine({
+        av: AV,
+        el: '#vcomment',
+        notify: notify,
+        verify: verify,
+        app_id: "xEHuhYXSp5x6fnmqLe3VSLqN-MdYXbMMI",
+        app_key: "PtiV9huP7xYhr3q2L8GTajSM",
+        placeholder: "支持Markdown语法哦！填写QQ邮箱，回复更及时~（有新的回复时，将会以QQ邮箱通知您哦~）",
+        avatar:"monsterid",
+        master: '7f3bbd2d52a4145db6c6bd0d0d3a24eb',   //博主邮箱md5
+        tagMeta: ["博主","小伙伴","访客"],
+        friends:  ["035b0567e8f51c50c97c7e88703b4d2b","52d0f30e47636a0aba89979f9d8931fe"],  //小伙伴邮箱Md5
+        // visitor: true, // 阅读量统计
+    });
+</script>
+<!-- 添加评论背景 -->
+<style>
+    .v[data-class=v] .veditor {
+        background-image: url(https://i.loli.net/2020/08/19/eIDUriuG6vKEzmT.gif);
+            /* https://i.loli.net/2020/08/19/IGtxX48c5oHMzhW.gif */
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: rgba(255, 255, 255, 0);
+	    resize: vertical;
+    }
+    </style>
+    </section>
+  
 
           </div>
         </div>
@@ -450,7 +580,7 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
