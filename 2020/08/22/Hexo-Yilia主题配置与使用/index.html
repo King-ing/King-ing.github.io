@@ -6,16 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://King-ing.github.io">
-  <title>Tag: 建站日志 | King Blog</title>
+  <title>Hexo-Yilia主题配置与使用 | King Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="个人技术博客">
-<meta property="og:type" content="website">
-<meta property="og:title" content="King Blog">
-<meta property="og:url" content="https://king-ing.github.io/tags/%E5%BB%BA%E7%AB%99%E6%97%A5%E5%BF%97/index.html">
+  <meta name="description" content="🔨 博主正在努力编辑中，如果有想要博主更新的功能或者需要美化的界面，可以留言在下方…">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo-Yilia主题配置与使用">
+<meta property="og:url" content="https://king-ing.github.io/2020/08/22/Hexo-Yilia%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="King Blog">
-<meta property="og:description" content="个人技术博客">
+<meta property="og:description" content="🔨 博主正在努力编辑中，如果有想要博主更新的功能或者需要美化的界面，可以留言在下方…">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-08-22T07:06:33.000Z">
+<meta property="article:modified_time" content="2020-08-22T07:10:18.674Z">
 <meta property="article:author" content="King">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="Yilia">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="King Blog" type="application/atom+xml">
@@ -260,36 +264,185 @@
           </div>
           <div id="js-content" class="content-ll">
             
-  
-  
+<article id="post-Hexo-Yilia主题配置与使用" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/07/29/%E5%BB%BA%E7%AB%99%E6%97%A5%E5%BF%97/" class="archive-article-date">
-  	<time datetime="2020-07-29T03:56:19.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-29</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/07/29/%E5%BB%BA%E7%AB%99%E6%97%A5%E5%BF%97/">建站日志</a>
+    <h1 class="article-title" itemprop="name">
+      Hexo-Yilia主题配置与使用
     </h1>
   
 
-        <div class="article-info info-on-right">
+        <!-- 发布时间 -->
+        
+        
+	<!-- 不蒜子统计 -->
+	<span class="archive-article-date">
+	  <i class="fa fa-eye" aria-hidden="true"></i> 阅读量：<span id="busuanzi_value_page_pv"></span>次
+	</span>
+
+<a href="/2020/08/22/Hexo-Yilia%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BD%BF%E7%94%A8/" class="archive-article-date">
+  	<time datetime="2020-08-22T07:06:33.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-22</time>
+</a>
+        
+        <!-- 开始添加字数统计-->
+        
+          <div style="margin-top:10px;">
+    <span class="post-time">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-keyboard-o" aria-hidden="true"></i>
+        <span class="post-meta-item-text">  字数统计: </span>
+        <span class="post-count">37字</span>
+      </span>
+    </span>
+  
+    <span class="post-time">
+      &nbsp; | &nbsp;
+      <span class="post-meta-item-icon">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <span class="post-meta-item-text">  阅读时长: </span>
+        <span class="post-count">1分</span>
+      </span>
+    </span>
+  </div>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
           
+        <!-- 添加完成 -->
+      </header>
+    
+    <!-- 添加导航目录内容 -->
+    
+      <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+            <span class="btn-bg"></span>
+            <span class="btn-text">文章导航</span>
+            </p>
+      <div id="toc-article" class="toc-article">
+          <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+          <strong class="toc-title">文章目录</strong>
+            
+          </div>
+      <script type="text/javascript">
+        function showToc(){
+            var toc_article = document.getElementById("toc-article");
+            var show_toc_btn = document.getElementById("show-toc-btn");
+            toc_article.setAttribute("style","display:block");
+            show_toc_btn.setAttribute("style","display:none");
+            };
+        function showBtn(){
+            var toc_article = document.getElementById("toc-article");
+            var show_toc_btn = document.getElementById("show-toc-btn");
+            toc_article.setAttribute("style","display:none");
+            show_toc_btn.setAttribute("style","display:block");
+            };
+      </script>
+    
+    <!-- 导航目录内容结束 -->
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>🔨 博主正在努力编辑中，如果有想要博主更新的功能或者需要美化的界面，可以留言在下方…</p>
+</blockquote>
+<a id="more"></a>
+      
+
+      <!- 百度自动推送方式提交 -->
+      
+        <script>
+        (function(){
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+        </script>
+      
+      <!- 百度自动推送方式提交结束 -->
+
+
+      <!-- 添加文章版权申明 -->
+      
+        <!-- 《添加版权声明 -->
+<!--添加版权声明https://github.com/JoeyBling/hexo-theme-yilia-plus/commit/c1215e132f6d5621c5fea83d3c4f7ccbcca074a3-->
+
+
+<!-- #版权基础设定：0-关闭声明； 1-文章对应的md文件里有declare: true属性，才有版权声明； 2-所有文章均有版权声明 -->
+
+  <div class="declare">
+    <strong class="author">本文作者：</strong>
+    
+      King
+    
+    <br>
+    <strong class="create-time">发布时间：</strong>
+    2020-08-22 15:08:00
+    <br>
+    <strong class="update-time">最后更新：</strong>
+    2020-08-22 15:08:67
+    <br>
+    <strong class="article-titles">本文标题：</strong>
+    <a href="https://King-ing.github.io/2020/08/22/Hexo-Yilia主题配置与使用/" title="Hexo-Yilia主题配置与使用" target="_blank">Hexo-Yilia主题配置与使用</a>
+    <br>
+    <strong class="article-url">本文链接：</strong>
+    <a href="https://King-ing.github.io/2020/08/22/Hexo-Yilia主题配置与使用/" title="Hexo-Yilia主题配置与使用" target="_blank">https://King-ing.github.io/2020/08/22/Hexo-Yilia主题配置与使用/</a>
+    <br>
+    <strong class="copyright">版权声明：</strong>
+    本作品采用
+    <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议">CC BY-NC-SA 4.0</a>
+    许可协议进行许可。转载请注明出处！
+    
+      <br>
+      <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"/></a>
+    
+  </div>
+
+<!-- 添加版权声明》 -->
+      
+      <!-- end -->
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/Alipay_Collection.png">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/WeChat_Collection.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -301,28 +454,160 @@
         		<li class="article-tag-list-item">
         			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Yilia</a>
         		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">建站日志</a>
-        		</li>
       		
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=https://king-ing.github.io/2020/08/22/Hexo-Yilia%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BD%BF%E7%94%A8/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
   
   
-    </div></section>
+    <a href="/2020/08/22/%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%90%AD%E5%BB%BA-Hexo-Github-%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">零基础搭建 Hexo+Github 静态博客</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
 
+  
+
+  
+
+
+<!-- valine评论 -->
+
+  
+      <section id="comments" class="comments">
+        <style>
+          .comments{margin:30px;padding:10px;background:#fff}
+          @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
+        </style>
+        <div id="vcomment" class="comment"></div> 
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<!-- <script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<!-- 魔改版 Valine.min.js -->
+<script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script>
+<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.5.0/css/all.min.css" rel="stylesheet">
+
+<script>
+    var notify = 'true' == true ? true : false;
+    var verify = 'true' == true ? true : false;
+    new Valine({
+        av: AV,
+        el: '#vcomment',
+        notify: notify,
+        verify: verify,
+        app_id: "xEHuhYXSp5x6fnmqLe3VSLqN-MdYXbMMI",
+        app_key: "PtiV9huP7xYhr3q2L8GTajSM",
+        placeholder: "支持Markdown语法哦！填写QQ邮箱，回复更及时~（有新的回复时，将会以QQ邮箱通知您哦~）",
+        avatar:"monsterid",
+        master: '7f3bbd2d52a4145db6c6bd0d0d3a24eb',   //博主邮箱md5
+        tagMeta: ["博主","小伙伴","访客"],
+        friends:  ["035b0567e8f51c50c97c7e88703b4d2b","52d0f30e47636a0aba89979f9d8931fe"],  //小伙伴邮箱Md5
+        // visitor: true, // 阅读量统计
+    });
+</script>
+<!-- 添加评论背景 -->
+<style>
+    .v[data-class=v] .veditor {
+        background-image: url(https://i.loli.net/2020/08/19/eIDUriuG6vKEzmT.gif);
+            /* https://i.loli.net/2020/08/19/IGtxX48c5oHMzhW.gif */
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: rgba(255, 255, 255, 0);
+	    resize: vertical;
+    }
+    </style>
+    </section>
+  
 
           </div>
         </div>
@@ -370,9 +655,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
