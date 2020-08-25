@@ -1,21 +1,24 @@
 User-agent: *
 
-# 允许访问的内容
+# The following is allowed to be accessed
 Allow: /
 Allow: /archives/
 Allow: /leaving-message/
 Allow: /about/
 Allow: /dynamic/
+Allow: /tags/
 Allow: /2020/
 
-# 不允许访问的内容
+# The following content is not allowed to be accessed
 Disallow: /fonts/
 Disallow: /img/
 Disallow: /js/
 Disallow: /css/
+Disallow: /lib/
 
 Disallow: /*.js/
-Disallow: /*.css
+Disallow: /*.css/
 
+# Sitemap
 Sitemap: http://www.kblog.top/sitemap.xml
 Sitemap: http://www.kblog.top/baidusitemap.xml
