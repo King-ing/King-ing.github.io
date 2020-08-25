@@ -102,13 +102,6 @@
 
   
   <url>
-    <loc>http://www.kblog.top/tags/Python/</loc>
-    <lastmod>2020-08-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.kblog.top/tags/Markdown/</loc>
     <lastmod>2020-08-25</lastmod>
     <changefreq>daily</changefreq>
@@ -117,6 +110,13 @@
   
   <url>
     <loc>http://www.kblog.top/tags/Hexo/</loc>
+    <lastmod>2020-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.kblog.top/tags/Python/</loc>
     <lastmod>2020-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
