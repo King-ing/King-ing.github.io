@@ -1,0 +1,21 @@
+User-agent: *
+
+# 允许访问的内容
+Allow: /
+Allow: /archives/
+Allow: /leaving-message/
+Allow: /about/
+Allow: /dynamic/
+Allow: /2020/
+
+# 不允许访问的内容
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /js/
+Disallow: /css/
+
+Disallow: /*.js/
+Disallow: /*.css
+
+Sitemap: http://www.kblog.top/sitemap.xml
+Sitemap: http://www.kblog.top/baidusitemap.xml
