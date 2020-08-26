@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.kblog.top/dynamic/log.html</loc>
+    
+    <lastmod>2020-08-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.kblog.top/2020/08/26/Test/</loc>
     
     <lastmod>2020-08-26</lastmod>
@@ -45,13 +52,6 @@
   
   <url>
     <loc>http://www.kblog.top/about/index.html</loc>
-    
-    <lastmod>2020-08-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.kblog.top/dynamic/log.html</loc>
     
     <lastmod>2020-08-25</lastmod>
     
