@@ -2,7 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.kblog.top/post/14373.html</loc>
+    <loc>https://www.kblog.top/dynamic/videos.html</loc>
+    
+    <lastmod>2020-08-27</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.kblog.top/dynamic/photos.html</loc>
     
     <lastmod>2020-08-27</lastmod>
     
@@ -11,49 +18,49 @@
   <url>
     <loc>https://www.kblog.top/dynamic/log.html</loc>
     
-    <lastmod>2020-08-26</lastmod>
+    <lastmod>2020-08-27</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.kblog.top/dynamic/videos.html</loc>
+    <loc>https://www.kblog.top/dynamic/index.html</loc>
     
-    <lastmod>2020-08-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.kblog.top/dynamic/photos.html</loc>
-    
-    <lastmod>2020-08-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.kblog.top/post/24362.html</loc>
-    
-    <lastmod>2020-08-26</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.kblog.top/post/18839.html</loc>
-    
-    <lastmod>2020-08-26</lastmod>
+    <lastmod>2020-08-27</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.kblog.top/post/30452.html</loc>
     
-    <lastmod>2020-08-26</lastmod>
+    <lastmod>2020-08-27</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.kblog.top/post/62576.html</loc>
     
-    <lastmod>2020-08-26</lastmod>
+    <lastmod>2020-08-27</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.kblog.top/post/24362.html</loc>
+    
+    <lastmod>2020-08-27</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.kblog.top/post/18839.html</loc>
+    
+    <lastmod>2020-08-27</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.kblog.top/post/14373.html</loc>
+    
+    <lastmod>2020-08-27</lastmod>
     
   </url>
   
@@ -66,13 +73,6 @@
   
   <url>
     <loc>https://www.kblog.top/about/index.html</loc>
-    
-    <lastmod>2020-08-25</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.kblog.top/dynamic/index.html</loc>
     
     <lastmod>2020-08-25</lastmod>
     
