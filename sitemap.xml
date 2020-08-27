@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.kblog.top/dynamic/log.html</loc>
+    
+    <lastmod>2020-08-27</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.kblog.top/post/30452.html</loc>
+    
+    <lastmod>2020-08-27</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.kblog.top/dynamic/videos.html</loc>
     
     <lastmod>2020-08-27</lastmod>
@@ -16,21 +30,7 @@
   </url>
   
   <url>
-    <loc>https://www.kblog.top/dynamic/log.html</loc>
-    
-    <lastmod>2020-08-27</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.kblog.top/dynamic/index.html</loc>
-    
-    <lastmod>2020-08-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.kblog.top/post/30452.html</loc>
     
     <lastmod>2020-08-27</lastmod>
     
@@ -52,13 +52,6 @@
   
   <url>
     <loc>https://www.kblog.top/post/18839.html</loc>
-    
-    <lastmod>2020-08-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.kblog.top/post/14373.html</loc>
     
     <lastmod>2020-08-27</lastmod>
     
@@ -116,14 +109,14 @@
   </url>
   
   <url>
-    <loc>https://www.kblog.top/tags/Python/</loc>
+    <loc>https://www.kblog.top/tags/Hexo/</loc>
     <lastmod>2020-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.kblog.top/tags/Hexo/</loc>
+    <loc>https://www.kblog.top/tags/Python/</loc>
     <lastmod>2020-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
