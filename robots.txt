@@ -8,6 +8,7 @@ Allow: /about/
 Allow: /dynamic/
 Allow: /tags/
 Allow: /2020/
+Allow: /post/
 
 # The following content is not allowed to be accessed
 Disallow: /fonts/
