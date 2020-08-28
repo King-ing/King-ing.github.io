@@ -118,7 +118,7 @@
         for (var i = 0, len = data.link.length; i < len; i++) {
           var minSrc = 'https://cdn.jsdelivr.net/gh/King-ing/blog-Picture/min_photos/' + data.link[i];
           // var minSrc = 'https://cdn.jsdelivr.net/gh/King-ing/CDN/assets/comment_bg-3.gif'
-          var src = 'https://cdn.jsdelivr.net/gh/King-ing/blog-Picture/Original_image/' + data.link[i];
+          var src = 'https://cdn.jsdelivr.net/gh/King-ing/blog-Picture/photos/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '';
