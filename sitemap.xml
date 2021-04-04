@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.kblog.top/test/index.html</loc>
+    <loc>https://www.kblog.top/corner/index.html</loc>
     
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     
   </url>
   
@@ -263,7 +263,7 @@
 
   <url>
     <loc>https://www.kblog.top/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -271,140 +271,140 @@
   
   <url>
     <loc>https://www.kblog.top/tags/selenium/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/%E7%88%AC%E8%99%AB/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/python/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/javascript/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/Markdown/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/mysal/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/mysql/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/windows/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/Python/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/pycharm/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/xpath/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/js/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/session/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/cookie/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/mongodb/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/Hexo/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://www.kblog.top/tags/Yilia/</loc>
-    <lastmod>2021-04-03</lastmod>
+    <lastmod>2021-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
